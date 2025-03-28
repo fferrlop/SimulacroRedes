@@ -1,5 +1,3 @@
-# Simulacro Redes
-
 # Parte 1: Conceptos y teoría
 
 ## Pregunta 1: Modelos OSI y TCP/IP
