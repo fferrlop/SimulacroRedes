@@ -153,3 +153,47 @@ El modelo TCP/IP describe cómo se comunican dos dispositivos a través de una r
 4. Capa de Acceso a Red: Incluye las funciones necesarias para transmitir físicamente los datos a través del medio de red (como cable, fibra o Wi-Fi). Se encarga de encapsular los datagramas IP en tramas, añadir direcciones físicas (MAC), y controlar el acceso al medio. Incluye protocolos como Ethernet, Wi-Fi, y ARP.
 
 En el dispositivo receptor, el proceso se realiza en orden inverso. Cada capa extrae su encabezado y pasa los datos a la capa superior hasta que llegan a la aplicación correspondiente, permitiendo así la entrega correcta y completa del mensaje.
+
+## Parte II: Capa Física y Ejercicios Prácticos
+
+### Pregunta 7: Cálculo de Tasa de Transmisión Máxima (Fórmula de Shannon)
+
+Utiliza la fórmula de Shannon:
+
+
+Donde:
+
+- **C** es la tasa de transmisión máxima (bps),
+- **B** es el ancho de banda (Hz),
+- **SNR** es la relación señal a ruido en escala lineal  
+  (recuerda que:  
+  `SNR (lineal) = 10^(SNR(dB) / 10)`)
+
+---
+
+**Enunciado:**
+
+Calcula la tasa de transmisión máxima para un canal con las siguientes características:
+
+- Ancho de banda: **500 MHz**
+- SNR: **20 dB**
+
+---
+
+**Pasos:**
+
+1. **Convertir SNR a escala lineal:**
+
+SNR(lineal) = 10^(20 / 10) = 100
+
+2. **Aplicar la fórmula de Shannon:**
+
+C = 500 × 10⁶ × log₂(1 + 100) = 500 × 10⁶ × log₂(101) ≈ 500 × 10⁶ × 6.6582 ≈ 3.33 × 10⁹ bps
+
+---
+
+**Resultado:**
+
+La tasa de transmisión máxima es aproximadamente **3.33 Gbps**.
+
+
