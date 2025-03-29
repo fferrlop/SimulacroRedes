@@ -30,6 +30,9 @@ Flexibilidad en el desarrollo: El modularidad del modelo OSI permite modificar o
 
 Estandarización y adopción: TCP/IP es el modelo universalmente adoptado en redes modernas. OSI, aunque más completo teóricamente, no logró implantarse en la práctica debido a su complejidad y falta de integración con protocolos existentes.
 
+![_- visual selection (1)](https://github.com/user-attachments/assets/999963af-cb66-4496-a676-f954ef2e3d16)
+
+
 ## Pregunta 2: Función de la Capa de Transporte
 
 La capa de transporte tiene como objetivo garantizar una comunicación extremo a extremo entre procesos de diferentes dispositivos. Se encarga de que los datos lleguen completos, en orden y sin errores, independientemente del tipo de red o de los dispositivos utilizados.
